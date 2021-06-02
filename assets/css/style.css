@@ -55,3 +55,17 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* image */
+
+#club-outer {
+    height: 500px;
+    width: 80%;
+    overflow: hidden;
+}
+
+#club-image {
+    height: 500px;
+    width: 80%;
+    background: url('../images/club-image.png') no-repeat center,center;
+}
