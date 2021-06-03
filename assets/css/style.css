@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 50px;
 }
 
 /* nav links */
@@ -67,7 +68,7 @@ h1, h2 {
 }
 
 #cover-text, #cove-text h2 {
-    color: blanchedalmond;
+    color: red;
 }
 
 #club-image {
@@ -83,15 +84,42 @@ h1, h2 {
     letter-spacing: 6px;
 
     width: 300px;
-    height: 200px;
+    height: 250px;
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 
     background-color: rgb(251, 255, 0);
 
-    bottom: 30px;
+    bottom: 20px;
     right: 150px;
 
     position: absolute;
 }
+
+/* club ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: yellow;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right; 
+    background-color: black;
+}
+
+#center-about {
+    width: 3opx;
+    margin: 0 auto;
+    background-color:white;
+}
+
