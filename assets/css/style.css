@@ -9,7 +9,7 @@
 body {
     font-family: montserrat, sans-serif; 
     font-weight: 200;
-    color: darkorange;
+    color: black;
 }
 
 /* headings and logo */
@@ -62,7 +62,7 @@ h1, h2 {
 
 /* image and cover text */
 
-#club-outer {
+#team-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -71,14 +71,22 @@ h1, h2 {
 }
 
 #cover-text, #cove-text h2 {
-    color: red;
+    color: black;
 }
 
+*{
+    box-sizing: border-box;
+}
 
-#club-image {
+.images {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
     height: 300px;
-    width: 100%;
-    background: url('../images/club-image.png') no-repeat center,center;
+}
+
+.images img {
+    height: 300px;
 }
 
 #cover-text {
@@ -101,15 +109,15 @@ h1, h2 {
     position: absolute;
 }
 
-/* club ethos */
+/* team ethos */
 
-#club-ethos {
+#team-ethos {
     height: 600px;
 }
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 40%;
     float: left;
     background-color: yellow;
 }
@@ -125,5 +133,12 @@ h1, h2 {
     width: 3opx;
     margin: 0 auto;
     background-color:white;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: yellow;
 }
 
