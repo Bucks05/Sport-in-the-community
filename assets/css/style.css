@@ -21,6 +21,13 @@ h1, h2 {
     color: black;
 }
 
+h3, h4 {
+    font-family: open+sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4PX;
+    color: darkorange;
+}
+
 #logo {
     float: center;
     font-size: 200%;
@@ -117,22 +124,31 @@ h1, h2 {
 
 #left-about {
     padding-top: 30px;
-    width: 40%;
+    width: 50%;
     float: left;
     background-color: yellow;
+    font-size: 100%;
+    border: 1px solid blue;
+}
+
+.left-about-heading {
+    text-align: center;
+    font-size: 100%;
 }
 
 #right-about {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: right; 
     background-color: black;
+    color: darkorange;
+    font-size: 100%;
+    border: 1px solid blue;
 }
 
-#center-about {
-    width: 3opx;
-    margin: 0 auto;
-    background-color:white;
+.right-about-heading {
+    text-align: center;
+    font-size: 100%;
 }
 
 footer {
