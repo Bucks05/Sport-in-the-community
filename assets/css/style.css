@@ -151,14 +151,15 @@ h3, h4 {
     font-size: 100%;
 }
 
-/* pitches */
+/* training */
 
-#pitches {
-    background-image: url(//assets/images/pitche-image3.jpg);
+#training {
+    background-image: url('..//images/pitche-image3.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    width: 100%;
     overflow: hidden;
+    
 }
 footer {
     text-align: center;
