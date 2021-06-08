@@ -116,7 +116,6 @@ h3, h4 {
 /* team ethos */
 
 #team-ethos {
-    height: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -127,7 +126,7 @@ h3, h4 {
     float: left;
     background-color: yellow;
     border: 1px solid blue;
-    height: 100%;
+    min-height: 100%;
 }
 
 .left-about-main-text {
@@ -146,7 +145,7 @@ h3, h4 {
     background-color: black;
     color: darkorange;
     border: 1px solid blue;
-    height: 100%;
+    min-height: 100%;
 }
 
 .right-about-heading h2 {
