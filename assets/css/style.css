@@ -37,7 +37,7 @@ h3, h4 {
 /* nav links */
 
 #menu {
-    /* font-size: 110%; */
+
     letter-spacing: 4px;
 }
 
@@ -95,7 +95,6 @@ h3, h4 {
 }
 
 #cover-text {
-    /* font-size: 100%; */
     font-family: open+sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -118,6 +117,8 @@ h3, h4 {
 
 #team-ethos {
     height: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 #left-about {
@@ -209,6 +210,14 @@ footer {
 
 #sign-up h1 {
     font-size: 300%;
+}
+
+/* media queries */ 
+
+@media (min-width:600px ) {
+    #team-ethos {
+        flex-direction: row;
+    }
 }
 
 
