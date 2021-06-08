@@ -29,9 +29,7 @@ h3, h4 {
 }
 
 #logo {
-    float: center;
-    font-size: 200%;
-    margin-left: 50px;
+    font-size: 5rem;
     text-align: center;
     padding: 60px;
 }
@@ -39,7 +37,7 @@ h3, h4 {
 /* nav links */
 
 #menu {
-    font-size: 110%;
+    /* font-size: 110%; */
     letter-spacing: 4px;
 }
 
@@ -97,7 +95,7 @@ h3, h4 {
 }
 
 #cover-text {
-    font-size: 100%;
+    /* font-size: 100%; */
     font-family: open+sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -127,13 +125,17 @@ h3, h4 {
     width: 50%;
     float: left;
     background-color: yellow;
-    font-size: 100%;
     border: 1px solid blue;
+    height: 100%;
+}
+
+.left-about-main-text {
+    font-size: 1rem;
 }
 
 .left-about-heading {
     text-align: center;
-    font-size: 100%;
+    font-size: 1.5rem;
 }
 
 #right-about {
@@ -142,13 +144,18 @@ h3, h4 {
     float: right; 
     background-color: black;
     color: darkorange;
-    font-size: 100%;
     border: 1px solid blue;
+    height: 100%;
 }
 
-.right-about-heading {
+.right-about-heading h2 {
     text-align: center;
-    font-size: 100%;
+    font-size: 1.5rem;
+    color: darkorange;
+}
+
+.right-about-main-text {
+    font-size: 1rem;
 }
 
 /* training */
