@@ -179,7 +179,16 @@ footer {
     padding: 5px;
     background-color: black;
     color: yellow;
-    
-    
+}
+
+#about {
+    clear: both;
+    font-size: 190%;
+    background-color: brown;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 280%;
 }
 
