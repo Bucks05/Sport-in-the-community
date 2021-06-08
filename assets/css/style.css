@@ -192,3 +192,17 @@ footer {
     font-size: 280%;
 }
 
+#sign-up {
+    background-color: red;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#sign-up h1 {
+    font-size: 300%;
+}
+
+
+
