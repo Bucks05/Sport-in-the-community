@@ -181,11 +181,30 @@ h3, h4 {
 #training h3 {
     color: whitesmoke;
 }
-footer {
-    text-align: center;
-    padding: 5px;
+footer  {
+    height: 150px;
     background-color: black;
-    color: yellow;
+}
+
+footer p {
+    color: orangered;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media i{
+    font-size: 160%;
+    color: blue;
+    margin: 1%;
+    padding: 1%;
 }
 
 #about {
