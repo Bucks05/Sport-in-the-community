@@ -215,6 +215,9 @@ footer p {
 #about h1 {
     font-size: 200%;
 }
+.image img {
+    width: 100%;
+}
 
 #sign-up {
     background-color: red;
