@@ -37,6 +37,12 @@ h3, h4 {
     padding-bottom: 20px;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* nav links */
 
 nav {
@@ -89,14 +95,9 @@ nav {
 }
 
 .images {
-    float: left;
-    width: 33.33%;
     padding: 3px;
-    height: 300px;
-}
-
-.images img {
-    height: 300px;
+    align-items: center;
+    
 }
 
 #cover-text {
@@ -246,6 +247,7 @@ footer p {
         flex-direction: row;
         margin: 0 auto;
     }
+   
 }
 
 @media (min-width:800px ) {
@@ -270,6 +272,23 @@ footer p {
 
     #training h3 {
         color: black;
+    }
+}
+
+@media (min-width: 781px) {
+    .images {
+        float: left;
+        width: 33.33%;
+        padding: 3px;
+        height: 300px;
+    }
+    
+    .images img {
+        height: 300px;
+    }
+
+    .row {
+        flex-direction: row;
     }
 }
 
